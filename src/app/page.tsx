@@ -1,12 +1,11 @@
-import Square, { Circle } from '@/components/Geo';
+import { GeoForm } from '@/components/GeoForm';
 
 const Page = () =>{
   return (
     <div>
       <h1>Olá Mundo</h1>
 
-      <Square/>
-      <Circle/>
+     <GeoForm/>
     </div>
     
   );
